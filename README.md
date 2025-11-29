@@ -40,7 +40,7 @@
 .
 ├── s04e11-depression-prediction-ensemble.ipynb  # 主要笔记本：三层集成模型（7+2+1）
 ├── baseline.ipynb                               # 基线模型：逻辑回归 + Linear SVM
-├── depression-prediction-ensemble.ipynb         # 另一个集成模型版本
+├── main_improve.ipynb         # 另一个集成模型版本
 ├── dataset/
 │   ├── train.csv
 │   ├── test.csv
@@ -107,7 +107,7 @@ pip install -r requirements.txt
 
 ### 运行完整的集成模型
 
-打开 `s04e11-depression-prediction-ensemble.ipynb` 笔记本并按顺序执行所有单元格：
+打开 `main_improve.ipynb` 笔记本并按顺序执行所有单元格：
 
 1. **导入和配置** - 加载必要的库和配置参数
 2. **数据加载和预处理** - 读取和处理数据集
